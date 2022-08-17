@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            border: 5px solid rebeccapurple;
+        }
+
+        tr.linha {
+            background-color: gray;
+        }
+        
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left; /*Aliamento horizontal*/
+            vertical-align: middle; /*Aliamento vertical*/
+        }
+
+        .numero {
+            text-align: right;
+        }
+        td.dado {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        Hierarquia de Tabelas (simples)
+        Table = tabelas
+            Table Row = Linha de Tabelas
+                Table Header = Cabeçalho de Tabela
+                Table Data = dado de tabela            
+                              
+    -->
+    <table>
+        <tr> <!--Primeira Linha-->
+            <td>LinhaA</td>
+            <td>LinhaA</td>
+            <td>LinhaA</td>
+        </tr> <!--Segunda Linha-->
+        <tr class="linha">
+            <td class="numero">linhaB</td>
+            <td>LinhaB</td>
+            <td>LinhaB</td>
+        </tr>
+        <tr> <!--Terceira Linha-->
+            <td>linhaC</td>
+            <td class="dado">LinhaC</td>
+            <td>LinhaC</td>
+        </tr>
+        <tr> <!--Quarta Linha-->
+            <td>linhaD</td>
+            <td>LinhaD</td>
+            <td>LinhaD</td>
+        </tr>
+        <tr>
+            <td>LinhaE</td>
+            <td>LinhaE</td>
+            <td class="dado">LinhaE</td>
+        </tr>
+
+    </table>
+</body>
+</html>
