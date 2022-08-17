@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: darkgrey;
+            color: white;
+        }
+
+        tfoot {
+            background-color: darkgrey;
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <Table>
+        <THead>
+            <tr>
+                <th>País</th>
+                <th>Estimativa da ONU</th>
+            </tr>
+        </THead>
+        <Tbody>
+             <tr>
+                <td>China</td>
+                <td
+                class="num">1 411 780 000</td>
+             </tr>
+             <tr>
+                <td>Índia</td>
+                <td class="num">1 380 004 385</td>
+             </tr>
+             <tr>
+                <td>Estados Unidos</td>
+                <td class="num">331 449 281</td>
+             </tr>
+             <tr>
+                <td>Indonésia</td>
+                <td class="num">273 523 615</td>
+             </tr>
+             <tr>
+                <td>Paquistão</td>
+                <td class="num">220 892 340</td>
+             </tr>
+             <tr>
+                <td>Brasil</td>
+                <td class="num">213 317 639</td>
+             </tr>
+             <tr>
+                <td>Nigéria</td>
+                <td class="num">206 139 589</td>
+             </tr>
+             <tr>
+                <td>Bangladesh</td>
+                <td class="num">164 689 383</td>
+             </tr>
+             <tr>
+                <td>Russia</td>
+                <td class="num">145 934 462	</td>
+             </tr> 
+             <tr>
+                <td>México</td>
+                <td class="num">128 932 753</td>
+             </tr>
+             <tr>
+                <td>Japão</td>
+                <td class="num">126 476 461</td>
+             </tr> 
+             
+             <tr>
+                <td>Etiópia</td>
+                <td class="num">114 963 588</td>
+             </tr>
+             <tr>
+                <td>Filipinas</td>
+                <td class="num">109 581 078</td>
+             </tr>
+             <tr>
+                <td>Egito</td>
+                <td class="num">102 334 404</td>
+             </tr>
+             <tr>
+                <td>República 
+                    Democrática do Congo
+                </td>
+                <td class="num">89 561 403</td>
+             </tr>
+             <tr>
+                <td>Turquia</td>
+                <td class="num">84 339 067</td>
+             </tr>
+             <tr>
+                <td>Irã</td>
+                <td class="num">83 992 949</td>
+             </tr>
+             <tr>
+                <td>Alemanha</td>
+                <td class="num">83 783 942</td>
+             </tr>
+             <tr>
+                <td>Tailândia</td>
+                <td class="num">69 799 978</td>
+             </tr>
+             <tr>
+                <td>Reino Unido</td>
+                <td class="num">69 799 978</td>
+             </tr>
+             <tr>
+                <td>França</td>
+                <td class="num">65 273 511</td>
+             </tr>
+             <tr>
+                <td>Itália</td>
+                <td class="num">60 461 826</td>
+             </tr>           
+        </Tbody>
+        <Tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>0000</strong></td>
+            </tr>
+        </Tfoot>
+    </Table>
+</body>
+</html>
